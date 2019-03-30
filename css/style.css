@@ -101,11 +101,15 @@ a:hover {
 }
 
 /* Mobile Styles */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 960px) {
   body {
   }
   .landing-page-center {
-    padding-top: 5vmin !important;
+    padding-top: 0vmin !important;
+    padding-bottom: 0vmin !important;
+  }
+  .arrow-scroller {
+    top: 0vh !important;
   }
 }
 
