@@ -16,8 +16,8 @@ font-family: 'Tajawal', sans-serif;
 }
 
 .landing-page-center {
-    padding-top: 27.5vh;
-    padding-bottom:27.5vh;
+    padding-top: 27.5vmin;
+    padding-bottom:27.5vmin;
 }
 
 .header-logo {
@@ -92,4 +92,31 @@ a:hover {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #FF425F;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  body {
+  }
+  .landing-page-center {
+    padding-top: 5vmin !important;
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  body {
+  }
 }
