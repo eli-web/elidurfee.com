@@ -7,9 +7,12 @@ body{
   overflow-x: hidden;
 }
 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Tajawal', sans-serif;
+
 .landing-page {
   height: 100vh;
-  width: 100vw;
+  width: 97vw;
 }
 
 .landing-page-center {
@@ -37,6 +40,17 @@ body{
 
 a:hover {
   opacity: 0.5;
+}
+
+.landing-page-link {
+  font-size: 7vh;
+  font-family: Tajawal;
+  color: #fff !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5vmin;
+  text-align: center;
 }
 
 .sakura-image {
@@ -68,8 +82,6 @@ a:hover {
 /* Track */
 ::-webkit-scrollbar-track {
   background: #888;
-  opacity: 0.5;
-  filter: alpha(opacity=50);
 }
 
 /* Handle */
