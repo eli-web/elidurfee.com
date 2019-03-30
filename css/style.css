@@ -1,0 +1,83 @@
+body{
+  background-image: url(../images/repeating-wood.jpg);
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+
+.landing-page {
+  height: 100vh;
+  width: 100vw;
+}
+
+.landing-page-center {
+    padding-top: 27.5vh;
+    padding-bottom:27.5vh;
+}
+
+.header-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 45vh;
+  width: auto;
+}
+
+.arrow-scroller {
+  width: 10vh;
+  height: auto;
+  position: relative;
+  top: -15vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+.sakura-image {
+  display: block;
+  position: absolute;
+  top: 35vh;
+  left: -20px;
+  width: 60vw;
+  height: auto;
+  opacity: 0.5;
+  z-index: -10;
+}
+
+.fuji-hero {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../images/mount-fuji.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #888;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #FF677E;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #FF425F;
+}
