@@ -38,6 +38,10 @@ font-family: 'Tajawal', sans-serif;
   margin-right: auto;
 }
 
+.arrow-scroller:hover {
+  opacity: 0.5;
+}
+
 a:hover {
   opacity: 0.5;
 }
