@@ -24,8 +24,8 @@ font-family: 'Tajawal', sans-serif;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 45vh;
-  width: auto;
+  height: auto;
+  width: 33vw;
 }
 
 .arrow-scroller {
