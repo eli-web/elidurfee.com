@@ -26,6 +26,7 @@ font-family: 'Tajawal', sans-serif;
   margin-right: auto;
   height: auto;
   width: 33vw;
+  max-width: 50vw;
 }
 
 .arrow-scroller {
